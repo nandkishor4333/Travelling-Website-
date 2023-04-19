@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_login.css" type="text/css"/>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <div class="h3">Travel Go</div>
+            <div class="logo"><img src="logo1.png" alt="logo"></div>
+        </div>
+        <div class="right">
+            <div><a href='index.html'>Home</a></div>
+            <div><a href='tour.html'>Tours</a></div>
+            <div><a href='https://www.trivago.in/'>Hotels</a></div>
+            <div id="active"><a href='login.html'>Login</a></div>
+            <div><a href='contact.html'>Contact</a></div>
+            <div><a href='about us.html'>About Us</a></div>
+        </div>
+    </div>
+    <div class="con">
+        <div><h1>Login Form</h1></div>
+        <div class="bottom">
+            <div><img src="login.jpg"/></div>
+            <form>
+                <div class="c1">Email:</div>
+                <div><input type="text" placeholder="Enter Email" onfocus="fun(this)" onblur="fun1(this)"/></div>
+                <div class="c1">Password:</div>
+                <div><input type="text" placeholder="Enter Password" onfocus="fun(this)" onblur="fun1(this)"/></div>
+                <div><input type="checkbox"/><span class="c1"> Remember Me</p></span></div>
+                <div><button><a href='thanks.html'>Login</a></button></div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function fun(el)
+        {
+            el.className='click'
+        }
+        function fun1(el)
+        {
+            el.className='none'
+        
+        }
+    </script>
+</body>
+</html>

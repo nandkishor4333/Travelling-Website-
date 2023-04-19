@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       *{
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;           
+        }
+        .nav{
+            position: sticky;
+            top: 0px;
+            z-index: 10;
+            width: 100%;
+            height: 14vh;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: space-between;        
+        }
+        .left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left .h3{
+            font-weight: bold;
+            padding-left: 15px;
+            font-size: 20px;
+        }
+        .logo{
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            padding-left: 40px;
+        }
+        .logo img{
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;       
+        }
+        .right div a{
+            margin-right: 60px;
+            font-size: 22px;
+            color: black;
+            text-decoration: none;
+            padding: 6px;
+        }       
+        .right div a:hover{
+            color: white;
+            text-decoration: none;
+            background-color: rgb(28, 76, 233);
+            padding: 6px;
+        }
+        .right div a:active{
+            color: coral;
+        }    
+        .con{
+            width: 30%;
+            height: 120vh;
+            margin: auto;
+            margin-top:22vh;
+            background-color: white;
+            box-shadow: 0px 0px 35px 25px rgb(103, 96, 96);
+        }
+        h1{
+            font-size: 40px;
+            text-align: center;
+            padding-top:30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid blue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 40%;
+            margin: auto;
+        }
+        .bottom{
+            display: flex;
+            flex-direction: column;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        form div{
+            margin-bottom: 12px;
+            margin-left: 25px;
+        }
+        input{
+            padding: 10px;
+            border: none;
+            font-size: 15px;
+        }
+        button{
+            width: 300px;
+            background-color:rgb(17, 174, 17);
+            padding: 10px;
+            border: none;
+            margin-top: 5px;
+            color: white;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .c1{
+            color: rgb(18, 18, 218);
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .click{
+            border: 2px solid rgb(101, 101, 246);
+        }
+        .none{
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <div class="h3">Travel Go</div>
+            <div class="logo"><img src="logo1.png" alt="logo"></div>
+        </div>
+        <div class="right">
+            <div><a href='index.html'>Home</a></div>
+            <div><a href='tour.html'>Tours</a></div>
+            <div><a href='https://www.trivago.in/'>Hotels</a></div>
+            <div><a href='login.html'>Login</a></div>
+            <div><a href='contact.html'>Contact</a></div>
+            <div><a href='about us.html'>About Us</a></div>
+        </div>
+    </div>
+    <div class="con">
+        <div><h1>Booking</h1></div>
+        <div class="bottom">
+            <div><img src="login.jpg"/></div>
+            <form>
+                <div class="c1">Your Name:</div>
+                <div><input type="text" placeholder="Enter Your Name" onfocus="fun(this)" onblur="fun1(this)"/></div>
+                <div class="c1">Mobile No.:</div>
+                <div><input type="text" placeholder="Enter Your Phone No." onfocus="fun(this)" onblur="fun1(this)"/></div>
+                <div class="c1">Email:</div>
+                <div><input type="email" placeholder="Enter Your Email" onfocus="fun(this)" onblur="fun1(this)"/></div>
+                <div class="c1">Your Location:</div>
+                <div><input type="text" placeholder="Enter Your Location" onfocus="fun(this)" onblur="fun1(this)"/></div> 
+                <div class="c1">Destination:</div>
+                <div><input type="text" placeholder="Enter Your Destination" onfocus="fun(this)" onblur="fun1(this)"/></div>  
+                <div><button><a href='thanks.html'>Confirm Booking</a></button></div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function fun(el)
+        {
+            el.className='click'
+        }
+        function fun1(el)
+        {
+            el.className='none'
+        
+        }
+    </script>
+</body>
+</html>

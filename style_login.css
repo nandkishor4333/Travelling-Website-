@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;          
+}
+.nav{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 14vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;       
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left .h3{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+.logo img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+.right div a{
+    margin-right: 60px;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+    box-sizing: border-box;
+}       
+.right div a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(28, 76, 233);
+    padding: 6px;
+}
+.right div a:active{
+    color: coral;
+}
+.con{
+    width: 30%;
+    height: 95vh;
+    margin: auto;
+    margin-top:22vh;
+    background-color: white;
+    box-shadow: 0px 0px 30px 20px rgb(103, 96, 96);
+}
+h1{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(58, 58, 240);
+    width: 62%;
+    margin: auto;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+form div{
+    margin-bottom: 12px;
+    margin-left: 25px;
+}
+input{
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+}
+button{
+    width: 300px;
+    background-color:rgb(17, 174, 17);
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 12px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.c1{
+    color: rgb(18, 18, 218);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.click{
+    border: 2px solid rgb(118, 118, 235);
+}
+.none{
+    border: none;
+}
+#active{
+    text-decoration: none;
+    background-color: rgb(28, 76, 233);
+    padding: 6px;
+    margin-right: 60px;
+    width: 68px;
+    box-sizing: border-box;
+}
+
+#active a{
+    color: white ;
+}

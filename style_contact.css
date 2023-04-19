@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;           
+}
+.nav{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 14vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;       
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left .h3{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding-left: 40px;
+}
+.logo img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+.right div a{
+    margin-right: 60px;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+    box-sizing: border-box;
+}       
+.right div a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(28, 76, 233);
+    padding: 6px;
+}
+.right div a:active{
+    color: coral;
+}
+#con{
+    width: 100%;
+    height:106vh;
+    background-color:rgb(223, 227, 231);           
+}
+.bottom h1{
+    font-size: 45px;
+    color: rgb(37, 36, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-bottom: 3px solid rgb(48, 48, 243);
+    width: 22%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 20vh;
+    line-height: 80px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lft input{
+    font-size: 18px;
+    width: 472px;
+    margin-bottom: 18px;
+    padding: 10px;
+    margin-left: -100px;
+    border: none;   
+}
+textarea{
+    margin-left: -100px;
+    border: none;    
+}
+button{
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: rgb(13, 93, 206);
+    color: white;
+    padding: 10px 12px;
+    margin-left: -100px;
+    border: none;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.rit{
+    margin-top: -80px;
+}
+.rit div{
+    margin-left: -330px;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;            
+}
+.rit div p{
+    font-size: 18px;
+}
+#active{
+    text-decoration: none;
+    background-color: rgb(28, 76, 233);
+    padding: 6px;
+    margin-right: 55px;
+    width: 91px;
+    box-sizing: border-box;
+}
+#active a{
+    color: white ;
+}

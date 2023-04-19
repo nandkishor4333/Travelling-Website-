@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style_about.css" type="text/css"/>
+    <title>About Page</title>       
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <div class="h3">Travel Go</div>
+            <div class="logo"><img src="logo1.png" alt="logo"></div>
+        </div>
+        <div class="right">
+            <div><a href='index.html'>Home</a></div>
+            <div><a href='tour.html'>Tours</a></div>
+            <div><a href='https://www.trivago.in/'>Hotels</a></div>
+            <div><a href='login.html'>Login</a></div>
+            <div><a href='contact.html'>Contact</a></div>
+            <div id="active"><a href='about us.html'>About Us</a></div>
+        </div>
+    </div>
+    <div class="about">
+        <h1>About US</h1>
+        <p>This website is created by Mr.Nandkishor Madankar CEO of Travel GO.
+            At the heart of our mission is the idea that people are fundamentally 
+            good and that every community is place where you can belong. I sincerely 
+            believe that discrimination is the greatest challenge we face as a company.
+            It cuts to the core of who we are and the values that we stand for.
+        </p>
+        <div><button><a href="thanks.html">Read more</a></button></div>
+    </div>
+    <div class="con">
+        <h1>Our Amazing Team</h1>
+        <div><hr/></div>
+        <div class="team">
+            <div class="c1"  onmouseenter="dis(0)" onmouseleave="dis(0)">
+                <div class="img"><img src="nan3.jpg" alt="abc"/></div>
+                <div class="log" >
+                    <div  class="log1"><a href="contact.html"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div class="log1" id="d1" id="insta"><a href="contact.html"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+                <div class="h2"><h2>Nandkishor Madankar</h2></div>
+                <div class="h3"><h3>Founder / CEO</h3></div>
+                <p>Web Developer</p>
+            </div>
+            
+            <div class="c1"  onmouseenter="dis(1)" onmouseleave="dis(1)">
+                <div class="img"><img src="ak1.jpg" alt="abc"/></div>
+                <div class="log" >
+                    <div  class="log1"><a href="contact.html"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div class="log1" id="d1" id="insta"><a href="contact.html"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+                <div class="h2"><h2>Ayush Kamdi</h2></div>
+                <div class="h3"><h3>Co-Founder</h3></div>
+                <p>Software Engineer</p>
+            </div>
+            <div class="c1"  onmouseenter="dis(2)" onmouseleave="dis(2)">
+                <div class="img"><img src="raj.jpg" alt="abc"/></div>
+                <div class="log" >
+                    <div  class="log1"><a href="contact.html"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div class="log1" id="d1" id="insta"><a href="contact.html"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>    
+                <div class="h2"><h2>Rajat Sharma</h2></div>
+                <div class="h3"><h3>Head Manager</h3></div>
+                <p>Web Developer</p>
+            </div>
+            <div class="c1"  onmouseenter="dis(3)" onmouseleave="dis(3)">
+                <div class="img"><img src="swa.jpg" alt="abc"/></div>
+                <div class="log" >
+                    <div  class="log1"><a href="contact.html"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="log1" id="twitter"><a href="contact.html"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div class="log1" id="d1" id="insta"><a href="contact.html"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+                <div class="h2"><h2>Swapnil Bokde</h2></div>
+                <div class="h3"><h3>Employee</h3></div>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function dis(num){
+            let x=document.getElementsByClassName('log')[num]
+            if( x.style.display=='flex'){
+                x.style.display='none'
+            }
+            else{x.style.display='flex'}
+        }
+    </script>
+    
+</body>
+</html>
